@@ -20,9 +20,9 @@ a {
   margin: auto;
 }
 header {
-    width: 1350px;
-    
-    margin: auto;
+  width: 1350px;
+
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,6 @@ header {
   justify-content: space-between;
 }
 
-
 .top-text h1 {
   font-size: 50px;
   font-weight: 500;
@@ -96,7 +95,6 @@ header {
   box-shadow: 0 0 10px #eeeff2;
   border-radius: 20px;
   width: 1350px;
-
 }
 .icons {
   display: flex;
@@ -164,8 +162,8 @@ header {
   color: #4f5665;
 }
 .plan {
-    margin: auto;
-    width: 1350px;
+  margin: auto;
+  width: 1350px;
   margin-bottom: 100px;
   display: flex;
   align-items: center;
@@ -173,7 +171,7 @@ header {
   flex-wrap: wrap;
 }
 .plan .card {
-    border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -207,92 +205,104 @@ header {
   width: 24px;
   margin-right: 20px;
 }
-.info-plan button{
-    border: 2px solid red;
-    background-color: transparent;
-    color: red;
-    padding: 5px 30px;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-weight: bold;
+.info-plan button {
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
 }
-.title-global
-{
-    text-align: center;
+.title-global {
+  text-align: center;
 }
-.title-global h1{
-    margin-bottom: 30px;
-    
+.title-global h1 {
+  margin-bottom: 30px;
 }
-.title-global p{
-    margin-bottom: 30px;
-    color:#4f5665;
+.title-global p {
+  margin-bottom: 30px;
+  color: #4f5665;
 }
-.content-vpn{
-    width: 1350px;
-    margin: auto;
-    text-align: center;
+.content-vpn {
+  width: 1350px;
+  margin: auto;
+  text-align: center;
 }
-.content-vpn .map img 
-{
-    margin-top: 100px;
-    width: 1006px;
+.content-vpn .map img {
+  margin-top: 100px;
+  width: 1006px;
 }
 
-.content-vpn .map .row-map img
-{
-    margin-top: 100px;
-    width: 190px;
+.content-vpn .map .row-map img {
+  margin-top: 100px;
+  width: 190px;
 }
-.our-client
-{
-    overflow: scroll;
-    display: flex;
-    align-items: center;
-    width: 1350px;
-    
-    margin: auto;
+.our-client {
+  
+  width: 1350px;
+  display: flex;
+  display: flexbox;
+  overflow-x: scroll;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 150px;
 }
-.card-client
-{
-    height: 230px;
-    margin: 0 20px;
-    width: 400px;
-    border: 2px solid #DDDDDD;
-    padding: 20px;
-    margin-bottom: 400px;
-    border-radius: 10px;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
+
+::-webkit-scrollbar{
+ width: 2px;
+ height: 10px;
 }
-.card-client:hover
-{
-    scale: 1.03;
-    border: 2px solid red;
+::-webkit-scrollbar-thumb{
+  background-color: red
+  ;
+  border-radius: 20px;
+  
 }
-.card-client .head-card{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+
+  
 }
-.image-name{
-    display: flex;
+.card-client {
+  margin-right: 50px;
+  flex-shrink: 0;
+  border: 2px solid #dddddd;
+  padding: 20px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.card-client:hover {
+  scale: 1.03;
+  border: 2px solid red;
+}
+.card-client .head-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-name {
+  display: flex;
 }
 .image-name .text {
-    margin-left: 20px;
+  margin-left: 20px;
 }
-.image-name .text h2{
-    font-size: 18px;
+.image-name .text h2 {
+  font-size: 18px;
 }
-.rate{
-    display: flex;
-    align-items: center     ;
+.rate {
+  display: flex;
+  align-items: center;
 }
-.rate p{
-    margin-right: 5px;
+.rate p {
+  margin-right: 5px;
 }
-.message-box{
-    margin-top: 15px;
+.message-box {
+  margin-top: 15px;
 }
