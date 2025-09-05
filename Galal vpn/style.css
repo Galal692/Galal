@@ -1,0 +1,298 @@
+@font-face {
+  font-family: bulik;
+  src: url("Rubik-VariableFont_wght.ttf");
+}
+body {
+  background-color: #fbfbfb;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: bulik;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+header {
+    width: 1350px;
+    
+    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.nav-bar ul li a {
+  font-size: 16px;
+  color: #4f5665;
+}
+.row h2 {
+  display: inline;
+  margin-left: 20px;
+  color: black;
+}
+.row h2 a {
+  font-size: 16px;
+  color: black;
+}
+.row .sign-up a {
+  color: red;
+  border-radius: 50px;
+  padding: 10px 40px;
+  border: 1px solid red;
+}
+.home-pag-top {
+  display: flex;
+  align-items: center;
+  width: 1350px;
+  background-color: white;
+  margin: auto;
+  justify-content: space-between;
+}
+
+
+.top-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.top-text p {
+  color: #4f5665;
+  font-size: 16px;
+  margin: 30px 0;
+}
+.top-text button {
+  background-color: #f53838;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px #f5383846;
+  cursor: pointer;
+}
+
+.top-image img {
+  width: 611.24px;
+}
+.icon-section {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  box-shadow: 0 0 10px #eeeff2;
+  border-radius: 20px;
+  width: 1350px;
+
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  width: 55px;
+}
+.icons .text {
+  margin-left: 30px;
+}
+.icons .text h1 {
+  font-size: 25px;
+}
+.wall {
+  height: 90px;
+
+  width: 2px;
+  background: #eeeff2;
+}
+.plane {
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plane .text-plane .top h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 15px;
+  line-height: 50px;
+}
+.plane .text-plane .top p {
+  color: #4f5665;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.plane .image-plane img {
+  width: 508.12px;
+}
+
+.plane .text-plane ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.plane .text-plane ul li p {
+  margin: 0;
+}
+.plane .text-plane ul li img {
+  width: 24px;
+  margin-right: 10px;
+}
+.title-plan {
+  text-align: center;
+}
+.title-plan h1 {
+  margin-bottom: 20px;
+}
+.title-plan p {
+  color: #4f5665;
+}
+.plan {
+    margin: auto;
+    width: 1350px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.plan .card {
+    border: 1px solid #DDDDDD;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 10px #eeeff2;
+  width: 330px;
+  height: 760px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px;
+}
+.plan .card .image img {
+  width: 144px;
+}
+.plan .card .title h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.plan ul {
+  margin-top: 50px;
+}
+.plan ul li {
+  margin: 0 0 25px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.plan ul li img {
+  width: 24px;
+  margin-right: 20px;
+}
+.info-plan button{
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.title-global
+{
+    text-align: center;
+}
+.title-global h1{
+    margin-bottom: 30px;
+    
+}
+.title-global p{
+    margin-bottom: 30px;
+    color:#4f5665;
+}
+.content-vpn{
+    width: 1350px;
+    margin: auto;
+    text-align: center;
+}
+.content-vpn .map img 
+{
+    margin-top: 100px;
+    width: 1006px;
+}
+
+.content-vpn .map .row-map img
+{
+    margin-top: 100px;
+    width: 190px;
+}
+.our-client
+{
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    width: 1350px;
+    
+    margin: auto;
+}
+.card-client
+{
+    height: 230px;
+    margin: 0 20px;
+    width: 400px;
+    border: 2px solid #DDDDDD;
+    padding: 20px;
+    margin-bottom: 400px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.card-client:hover
+{
+    scale: 1.03;
+    border: 2px solid red;
+}
+.card-client .head-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-name{
+    display: flex;
+}
+.image-name .text {
+    margin-left: 20px;
+}
+.image-name .text h2{
+    font-size: 18px;
+}
+.rate{
+    display: flex;
+    align-items: center     ;
+}
+.rate p{
+    margin-right: 5px;
+}
+.message-box{
+    margin-top: 15px;
+}
